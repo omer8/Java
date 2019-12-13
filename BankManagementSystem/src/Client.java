@@ -1,4 +1,4 @@
-class Client 
+class Client extends BankOperations
 {
 	private String name;
 	private Account account;

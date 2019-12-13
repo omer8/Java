@@ -96,4 +96,3 @@ class Account
 		return this.accountNumber;
 	}
 }
-
