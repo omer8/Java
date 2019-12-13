@@ -4,12 +4,13 @@ class Client
 	private Account account;
 	private String PhoneNumber;
 	private int age;
-	
+	public static int numOfClients;
 	public Client(String name, Account account, String phoneNumber, int age) {
 		this.name = name;
 		this.account = account;
 		PhoneNumber = phoneNumber;
 		this.age = age;
+		numOfClients++;
 	}
 	
 	public void display()
