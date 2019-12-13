@@ -93,7 +93,7 @@ public class BankProjectMain {
 				}
 			}
 	}
-		 if (type==2) { 
+		else if (type==2) { 
 			System.out.println("Please Enter Your Choice : ");
 			System.out.println("1: Display Account Details");
 			System.out.println("2: Deposit Money");
